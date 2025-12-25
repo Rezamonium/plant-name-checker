@@ -1,6 +1,7 @@
 # Plant Scientific Name Checker
 
-This Python tool checks plant scientific names using the [Plants of the World Online (POWO)](https://powo.science.kew.org) API and outputs accepted names and authors.
+This Python tool checks plant scientific names using the [Plants of the World Online (POWO)](https://powo.science.kew.org) API and outputs accepted names and authors. This script queries the POWO search endpoint for personal research.
+Respect server limits and avoid mass scraping.
 
 ## 🔍 Features
 
@@ -34,5 +35,8 @@ pip install -r requirements.txt
 2. Run the Python code
 
 ## Acknowledgements
-1. POWO Kew Royal Botanic Garden 
+1. POWO Kew Royal Botanic Garden.
 2. Developed by Reza Saputra, Papua Barat
+
+## Important Note: This script queries the POWO search endpoint for personal research. Respect server limits and avoid mass scraping.
+
